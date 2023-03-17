@@ -4,7 +4,7 @@ import HomeComponent from "./home.component";
 describe("Home Component", () => {
     test("Input fiel test", () => {
         render(<HomeComponent />);
-        const inputelement=screen.getByRole("textbox1");
+        const inputelement=screen.getByRole("textbox");
         expect(inputelement).toBeInTheDocument();
     });
 })
